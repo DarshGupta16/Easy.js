@@ -21,9 +21,7 @@ function onClick(query, functionToExecute) {
 }
 
 function onChange(query, functionToExecute) {
-  return document
-    .querySelector(query)
-    .addEventListener("change", functionToExecute);
+  return (document.querySelector(query).onchange = functionToExecute);
 }
 
 function changeHTML(query, text) {

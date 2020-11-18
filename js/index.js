@@ -17,3 +17,10 @@ function executeOnClick() {
 }
 
 onClick("#printTextBtn", executeOnClick);
+
+// onChange
+function executeOnChange() {
+  print(getInputValue("#onChangeText"));
+}
+
+onChange("#onChangeText", executeOnChange);
