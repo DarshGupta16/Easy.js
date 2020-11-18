@@ -29,10 +29,3 @@ function onChange(query, functionToExecute) {
 function changeHTML(query, text) {
   return (document.querySelector(query).innerHTML = text);
 }
-
-function changeHTMLall(query, text) {
-  let queries = document.querySelectorAll(query);
-  for (let i = 0; i < queries.length; i++) {
-    tag.innerHTML = text;
-  }
-}
