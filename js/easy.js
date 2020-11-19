@@ -1,29 +1,53 @@
-function select(query) {
-  return document.querySelector(query);
+var _0x276c = [
+  "log",
+  "onchange",
+  "value",
+  "querySelectorAll",
+  "querySelector",
+  "click",
+  "addEventListener",
+];
+(function (_0x15d681, _0x2617b0) {
+  var _0x276c2b = function (_0x31f0a1) {
+    while (--_0x31f0a1) {
+      _0x15d681["push"](_0x15d681["shift"]());
+    }
+  };
+  _0x276c2b(++_0x2617b0);
+})(_0x276c, 0xbd);
+var _0x31f0 = function (_0x15d681, _0x2617b0) {
+  _0x15d681 = _0x15d681 - 0x143;
+  var _0x276c2b = _0x276c[_0x15d681];
+  return _0x276c2b;
+};
+function select(_0x4c9aef) {
+  var _0x3339f3 = _0x31f0;
+  return document[_0x3339f3(0x147)](_0x4c9aef);
 }
-
-function selectAll(query) {
-  return document.querySelectorAll(query);
+function selectAll(_0x284d0e) {
+  var _0x2801e1 = _0x31f0;
+  return document[_0x2801e1(0x146)](_0x284d0e);
 }
-
-function print(text) {
-  return console.log(text);
+function print(_0x5159b6) {
+  var _0x2aafb6 = _0x31f0;
+  return console[_0x2aafb6(0x143)](_0x5159b6);
 }
-
-function getInputValue(query) {
-  return document.querySelector(query).value;
+function getInputValue(_0xe90202) {
+  var _0x300591 = _0x31f0;
+  return document[_0x300591(0x147)](_0xe90202)[_0x300591(0x145)];
 }
-
-function onClick(query, functionToExecute) {
-  return document
-    .querySelector(query)
-    .addEventListener("click", functionToExecute);
+function onClick(_0x5a62a8, _0x2a72a8) {
+  var _0x4f238f = _0x31f0;
+  return document["querySelector"](_0x5a62a8)[_0x4f238f(0x149)](
+    _0x4f238f(0x148),
+    _0x2a72a8
+  );
 }
-
-function onChange(query, functionToExecute) {
-  return (document.querySelector(query).onchange = functionToExecute);
+function onChange(_0x18c134, _0x3f00fa) {
+  var _0xa277da = _0x31f0;
+  return (document[_0xa277da(0x147)](_0x18c134)[_0xa277da(0x144)] = _0x3f00fa);
 }
-
-function changeHTML(query, text) {
-  return (document.querySelector(query).innerHTML = text);
+function changeHTML(_0x32121c, _0x4c5e4e) {
+  var _0x19afb0 = _0x31f0;
+  return (document[_0x19afb0(0x147)](_0x32121c)["innerHTML"] = _0x4c5e4e);
 }
