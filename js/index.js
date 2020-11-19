@@ -24,3 +24,22 @@ function executeOnChange() {
 }
 
 onChange("#onChangeText", executeOnChange);
+
+// createElem, createTxtNode and addNode
+let para = createElem("p");
+let node = createTxtNode("This is a new paragraph");
+
+addNode(para, node);
+
+let element = select("#div1");
+addNode(element, para);
+
+// addNodeBefore
+let para2 = createElem("p");
+let node2 = createTxtNode("New para");
+addNode(para2, node2);
+
+let element2 = select("#div2");
+let referenceNode = select("#p3");
+
+addNodeBefore(element2, para2, referenceNode);
