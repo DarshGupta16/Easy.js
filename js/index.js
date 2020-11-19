@@ -43,3 +43,6 @@ let element2 = select("#div2");
 let referenceNode = select("#p3");
 
 addNodeBefore(element2, para2, referenceNode);
+
+// removeElem
+removeElem("#removeElemDemo");

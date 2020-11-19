@@ -21,3 +21,5 @@ createAttrNode(name) - Creates and returns an attribute with (name) as its name.
 addNode(parent, child) - Adds a child node (child) to the parent node (parent).
 
 addNodeBefore(parent, newNode, ref) - Inserts a new node (newNode) into the parent node (parent) before the reference node (ref)
+
+removeElem(query) - Removes the element from the DOM specified in the (query) via id or class
