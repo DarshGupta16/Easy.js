@@ -1,0 +1,23 @@
+							--------Easy.js Cheatsheet------
+
+select(elem) - Selects (elem) via id or class entered.
+
+selectAll(elem) - Works like querySelectorAll in JS
+
+getInputValue(elem) - Gets value of (elem) via input id or input class entered
+
+onClick(elem, functionToExecute) - Adds a click event listener to (elem) via id or class and executes (functionToExecute)
+
+onChange(elem, functionToExecute) - Does the same thing as onClick, but adds a change event listener to the element passed in.
+
+changeHTML(elem, html) - Changes the HTML (html) of (elem) passed in.
+
+createElem(elemName) - Creates and returns element (elemName).
+
+createTxtNode(string) - Creates and returns a text node with (string) being the string.
+
+createAttrNode(name) - Creates and returns an attribute with (name) as its name.
+
+addNode(parent, child) - Adds a child node (child) to the parent node (parent).
+
+addNodeBefore(parent, newNode, ref) - Inserts a new node (newNode) into the parent node (parent) before the reference node (ref)
